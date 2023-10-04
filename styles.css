@@ -114,6 +114,7 @@ body {
 .carousel-indicators {
     position: absolute;
     bottom: 6vw;
+    z-index: 1;
 }
 
 .carousel-indicators .active {
@@ -131,7 +132,7 @@ body {
         text-align: center;
         gap: 10px; 
         position: absolute;
-        top: 95px;
+        top: 85px;
         transition: height 400ms;
         height: 0;
         width: 100%;
