@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    box-shadow: 0 3px 17px 3px rgb(0 0 0 / 0.25);
+    padding: 10px 0;
+}
+
+.logo {
+    height: 75px;
+    margin-left: 15px;
+}
+
+.nav-items {
+    font-family: 'Jost', monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #888383;
+    transition: ease 200ms;
+}
+
+.nav-link:hover {
+    color: #23A2AF;
+    transition: ease 200ms;
+}
+
+.active {
+    color: #23A2AF;
+}
+
+/* login button styles */
+
+.login {
+    font-family: 'Jost', monospace;
+    margin-right: 40px;
+    background-color: #23A2AF;
+    color: white;
+    box-shadow: 2px 3px 6px rgb(0 0 0 / 0.25);
+    padding: 8px 35px;
+    border: 0;
+    border-radius: 20px;
+    transition: ease 200ms;
+}
+
+.login:hover {
+    color: #23A2AF;
+    background-color: white;
+    transition: ease 200ms;
+}
+
+.login:active {
+    background-color: lightgrey;
+}
+
+/* ------------------- */
