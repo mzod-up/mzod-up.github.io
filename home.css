@@ -1,0 +1,50 @@
+/* carousel styles */
+
+.carousel-img {
+    width: 100vw;
+}
+
+.carousel {
+    position: absolute;
+    width: 100vw;
+    top: 83px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    z-index: 2;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #f5350f;
+}
+
+.carousel .carousel-indicators button {
+    background-color: darkslategrey;
+}
+
+.join {
+    position: relative;
+}
+
+.join-btn {
+    position: absolute;
+    z-index: 2;
+    bottom: 12vw;
+    right: 9vw;
+    color: white;
+    background-color: #a0260e;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-family: 'Jost', monospace;
+    font-weight: 400;
+    transition: ease 200ms;
+}
+
+.join-btn:hover {
+    background-color: #f5350f;
+    transition: ease 200ms;
+}
+
+/* --------------------------------- */

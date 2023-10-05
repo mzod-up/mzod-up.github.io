@@ -1,0 +1,77 @@
+.product-banner {
+    width: 100vw;
+    position: relative;
+    top: 83px;
+}
+
+.products-body {
+    background-color: #9EB29B;
+}
+
+
+
+/* Shared nav styles */
+
+
+
+/*Responsive Styles*/
+/* 
+@media only screen and (max-width: 800px) {
+
+    .logo {
+        margin-right: auto;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px; 
+        position: absolute;
+        top: 85px;
+        transition: height 400ms;
+        height: 0;
+        width: 100%;
+        overflow: hidden;
+        background-color: #f8f9fa;
+        box-shadow: 0px 20px 15px -20px rgb(0 0 0 / 0.25);
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .nav-list li {
+        width: 100%;
+    }
+
+    .nav-list li:hover {
+        background-color: #d4d3d3;
+    }
+
+    #menu-toggle:checked ~ .nav-items {
+        height: 190px;
+        transition: height 400ms;
+    }
+
+    .login-btn {
+        margin: 0;
+    }
+
+    .fa-bars {
+        display: block;
+        margin-right: 25px;
+        color: darkslategrey;
+        transition: ease 200ms;
+    }
+
+    .fa-bars:hover {
+        color: #23A2AF;
+        transition: ease 200ms;
+        cursor: pointer;
+    }
+
+
+} */
