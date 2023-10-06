@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in to Your Account</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <!-- Fontawesome for Icons -->
+    <script src="https://kit.fontawesome.com/9fd4e5fd95.js" crossorigin="anonymous"></script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="panel-container">
+
+        <div class="login-panel">
+            <div class="greeter">
+                <img class="logo" src="/assets/logo_notext.png" alt="JBCT"/>
+                <h3>Welcome back!</h3>
+                <p>Please log in to continue.</p>
+            </div>
+
+            <form id="form101" method="POST">
+                <div class="input-container">
+                    
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" class="uname form-input" placeholder="Username" name="username" required>
+                    
+                    <i class="fa-solid fa-unlock"></i>
+                    <input type="password" class="pw form-input" placeholder="Password" name="password" required>
+                
+                    <button type="submit" class="login">Login</button>
+                    <a class="forgot" href="change_password.html">Forgot password?</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="users-panel">
+            <img src="/assets/person_on_pc.png" class="users-img" alt="Person using PC">
+            <p>Recently activated users: </p>
+            <ul class="recent">
+                <li>1 Person Name Joined 2023-10-05 10:23:41</li>
+                <li>2 Person Name Joined 2023-10-05 09:55:10</li>
+                <li>3 Person Name Joined 2023-10-05 09:37:01</li>
+                <li>4 Person Name Joined 2023-10-05 09:11:52</li>
+                <li>5 Person Name Joined 2023-10-05 09:11:52</li>
+                <li>6 Person Name Joined 2023-10-05 09:11:52</li>
+                <li>7 Person Name Joined 2023-10-05 09:11:52</li>
+                <li>8 Person Name Joined 2023-10-05 09:11:52</li>
+                <li>9 Person Name Joined 2023-10-05 09:11:52</li>
+                <li>10 Person Name Joined 2023-10-05 09:11:52</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
