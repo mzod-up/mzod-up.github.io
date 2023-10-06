@@ -7,7 +7,7 @@
 }
 
 .products-body {
-    background-color: #9EB29B;
+    background-color: #abc0a7;
     width: 100%;
     height: auto;
     padding-bottom: 50px;
@@ -46,7 +46,7 @@
 
 .product-name {
     color: #1F1D1D;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .product-details {
@@ -61,7 +61,7 @@
     border-radius: 30px;
     background-image: linear-gradient(rgba(248, 249, 250, 1), rgba(226, 214, 214, 0.2));
     padding: 50px 30px 15px 240px;
-    font-weight: 600;
+    font-weight: 500;
     box-shadow: 2px 3px 6px rgb(0 0 0 / 0.25);
 }
 
