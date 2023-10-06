@@ -47,4 +47,29 @@
     transition: ease 200ms;
 }
 
+
+.jbct-message {
+    display: flex;
+    justify-content: center;
+    top: 83px;
+    /* bottom: 5vw; */
+    margin-top: calc(100vw / 2.4);
+    text-align: center;
+    position: fixed;
+    font-family: 'Jost', monospace;
+    width: 100%;
+}
+
+.jbct-message h3 {
+    font-weight: 400;
+    width: 80%;
+}
+
 /* --------------------------------- */
+
+@media (min-aspect-ratio: 16/9) {
+    .jbct-message {
+        display: none;
+    }
+}
+

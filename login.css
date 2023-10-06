@@ -63,6 +63,11 @@ body {
     font-family: 'Jost', monospace;
 }
 
+.input-container input {
+    font-family: 'Jost', monospace;
+    color: black;
+}
+
 .fa-user {
     position: absolute;
     z-index: 3;
@@ -126,13 +131,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: rgb(54, 54, 54)
 }
 
 .users-img {
     width: auto;
     height: 200px;
-    margin: 50px 0 5px 0;
+    margin-bottom: 5px;
 }
 
 .recent {
