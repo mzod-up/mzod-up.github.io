@@ -128,9 +128,6 @@ body {
 
 .users-panel {
   width: 50%;
-  /* background-image: url("/assets/gradient_bg.jpg");
-  background-size: cover;
-  background-position: center; */
   background: rgb(145, 186, 236);
   background: linear-gradient(
     144deg,
